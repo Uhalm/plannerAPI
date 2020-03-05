@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<head>
+    <title>{{uuid}}'s Dashboard</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div id="head">
+        <h1>{{session['uuid']}}'s Dashboard</h1> 
+    </div>
+    <div id="links">
+        <a href="/logout">Update</a>
+        <a href=#head>Logout</a>
+    </div>
+    <div id="body">
+        <h3>Assignments</h3>
+        <div id="assList">
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Assignments</th>
+                    <th>Due</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>Ass</td>
+                    <td>10-10-2020</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
